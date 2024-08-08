@@ -1,0 +1,30 @@
+lr0: 0.008  # slightly lower than before
+lrf: 0.1  # keep as is
+momentum: 0.937  # no change needed here
+weight_decay: 0.001  # increased
+warmup_epochs: 3.0  # no change
+warmup_momentum: 0.8  # no change
+warmup_bias_lr: 0.1  # no change
+box: 0.06  # slightly increased
+cls: 0.3  # no change
+cls_pw: 1.0  # no change
+obj: 0.7  # no change
+obj_pw: 1.0  # no change
+iou_t: 0.20  # no change
+anchor_t: 4.0  # no change
+fl_gamma: 0.5
+hsv_h: 0.02  # slightly increased
+hsv_s: 0.75  # slightly increased
+hsv_v: 0.45  # slightly increased
+degrees: 5.0  # added rotation
+translate: 0.2  # no change
+scale: 0.9  # no change
+shear: 0.0  # no change
+perspective: 0.001  # added perspective
+flipud: 0.0  # no change
+fliplr: 0.5  # no change
+mosaic: 1.0  # no change
+mixup: 0.2  # slightly increased
+copy_paste: 0.0  # no change
+paste_in: 0.15  # no change
+loss_ota: 1 # no change
